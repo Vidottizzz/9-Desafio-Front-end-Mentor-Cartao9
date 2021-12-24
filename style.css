@@ -1,0 +1,87 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    
+    /* ### Neutral */
+    
+    --veryDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    background: var(--veryLightGray);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    max-width:19.5rem;
+    margin: 4rem auto;
+    text-align: center;
+}
+.card header {
+    
+}
+.card header h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin:0 auto 1rem auto;
+    padding: 0 0;
+    width: 100%;
+}
+.card header span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card header p {
+    font-size: 0.95rem;
+    padding: 0rem 0rem 0.85rem 0rem;
+    width: 95%;
+    margin: 0 auto 3.5rem auto;
+    color: var(--grayishBlue)
+}
+.card-item {
+    background: white;
+    border-radius: 0.5rem;
+    height: 13.92rem;
+    text-align: left;
+    padding: 1.3rem 1.5rem;
+    margin-bottom: 1.45rem;
+    border-top: solid 0.2rem var(--cyan);
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.10);
+}
+.card-item:nth-child(2){
+    border-top: solid 0.2rem var(--red) ;
+}
+.card-item:nth-child(3){
+    border-top: solid 0.2rem var(--orange) ;
+}
+.card-item:nth-child(4){
+    border-top: solid 0.2rem var(--blue) ;
+}
+.card-item h3 {
+   font-size: 1.25rem;
+   margin: 0rem; 
+   padding-bottom: 0.35rem;
+   
+}
+.card-item p {
+    font-size: 0.80rem;
+    color: var(--grayishBlue);
+}
+.wrap-card-text {
+    padding: 0.3rem 0.3rem;
+}
+.card-img {
+    padding-left: 12.25rem;
+    margin-top: 1.8rem;
+    max-height: 3.8rem;
+}
